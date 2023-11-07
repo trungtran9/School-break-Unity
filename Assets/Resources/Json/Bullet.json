@@ -1,0 +1,440 @@
+{
+"bullet":
+[
+{
+	"name": "DepLe",
+	"description": "Shoots along with the movement",
+	"explosion": "none",
+	"minBaseDamage": 12,
+	"maxBaseDamage": 15,
+	"projectileSpeed": 10,
+	"bulletType": "single",
+	"target": "directional",
+	"spread": 1,
+	"impactCooldown": 0.8,
+	"baseAmount": 2,
+	"duration": 4,
+	"ignoreDuration": 1,
+	"friction": 0,
+	"baseRadius": 2.0,
+	"knockbackForce": 1.3,
+	"tangentForce": 0,
+	"cooldown": 1,
+	"shootSound":"Shoot",
+	"basePenetrationTimes": 1,
+	"delay": 0.0,
+	"levelup": [{
+		"level": 2,
+		"description": "Increases damage",
+		"dmgChange": 5,
+		"projectileAmount": 1
+	},{
+		"level": 3,
+		"description": "Gets one more projectile",
+		"projectileAmount": 1
+	},
+	{
+		"level": 4,
+		"description": "Increases speed",		
+		"speedChange": 1.2
+	},
+	{
+		"level": 5,
+		"description": "Increases projectile",
+		"projectileAmount": 1
+	},
+	{
+		"level": 6,
+		"description": "Increases damage and speed",
+		"dmgChange": 5,
+		"speedChange": 1.2
+	},
+	{
+		"level": 7,
+		"description": "Increases speed and projectile",
+		"speedChange": 1.0,
+		"projectileAmount": 1
+	},
+	{
+		"level": 8,
+		"description": "Increases damage",
+		"dmgChange": 10
+	}]
+},
+{
+	"name": "Paper Plane",
+	"description": "Circles around as protection",
+	"explosion": "none",
+	"minBaseDamage": 10,
+	"maxBaseDamage": 13,
+	"projectileSpeed": 9.5,
+	"bulletType": "single",
+	"target": "self",
+	"impactCooldown": 1,	
+	"baseAmount": 2,
+	"duration": 3,
+	"baseRadius": 4.0,
+	"knockbackForce": 1,
+	"cooldown": 3,
+	"basePenetrationTimes": -1,
+	"shootSound":"woosh",
+	"delay": 0.0,
+	"levelup":[{
+		"level": 2,
+		"description": "Gets one more projectile",
+		"projectileAmount": 1
+	},
+	{
+		"level": 3,
+		"description": "Increases speed",
+		"speedChange": 2.5
+	},
+	{
+		"level": 4,
+		"description": "Gets one more projectile",
+		"projectileAmount": 1
+	},
+	{
+		"level": 5,
+		"description": "Increases duration",		
+		"durationChange": 0.5
+	},
+	{
+		"level": 6,
+		"description": "Increases damage and projectile",
+		"dmgChange": 10,
+		"projectileAmount": 1
+	},
+	{
+		"level": 7,
+		"description": "Increases speed and duration",
+		"speedChange": 2.5,
+		"durationChange": 0.5
+	},
+	{
+		"level": 8,
+		"description": "Increases speed and projectile",
+		"speedChange": 2.5,
+		"projectileAmount": 1
+	}
+
+]		
+},
+{
+	"name": "Blue Flops",
+	"description": "Chases the first enemy on sight",
+	"explosion": "none",
+	"minBaseDamage": 10,
+	"maxBaseDamage": 13,
+	"projectileSpeed": 14,
+	"bulletType": "single",
+	"target": "closest",
+	"ignoreDuration": 1,
+	"impactCooldown": 0.8,
+	"baseAmount": 1,
+	"duration": 4,
+	"baseRadius": 2.0,
+	"knockbackForce": 1.0,
+	"cooldown": 0.8,
+	"basePenetrationTimes": 1,
+	"shootSound":"Shoot",
+	"delay": 0.2,
+	"levelup":[
+	{
+		"level": 2,
+		"description": "Increases projectile",
+		"projectileAmount": 1
+	},{
+		"level": 3,
+		"description": "Increases damage",		
+		"dmgChange": 4
+	},	
+	{
+		"level": 4,
+		"description": "Increases projectile",
+		"projectileAmount": 1
+	},
+	{
+		"level": 5,
+		"description": "Decreases cooldown with increased damage",
+		"cooldownChange": 0.3,
+		"dmgChange": 5		
+	}, {
+		"level": 6,
+		"description": "Increases projectile",		
+		"projectileAmount": 1
+	}, 
+ 	{
+ 		"level": 7,
+		"description": "Decreases cooldown with increased damage",
+		"cooldownChange": 0.2,
+		"dmgChange": 10
+ 	},
+ 	{
+ 		"level": 8,
+		"description": "Increases projectile",		
+		"projectileAmount": 1	
+ 	}]		
+},
+{
+	"name": "Bomb",
+	"description": "Explodes after a short time",
+	"explosion": "ExplosionBig",
+	"minBaseDamage": 15,
+	"maxBaseDamage": 20,
+	"weight": 7,
+	"bulletType": "single",
+	"target": "directional",
+	"impactCooldown": 1.5,
+	"baseAmount": 1,
+	"duration": 2,
+	"baseRadius": 2.0,
+	"knockbackForce": 0.3,
+	"cooldown": 8,
+	"basePenetrationTimes": -1,
+	"explosionSound":"explosion",
+	"delay": 0.4,
+	"friction": 0.008,
+	"levelup":[{
+		"level": 2,
+		"description": "Increases damage",
+		"dmgChange": 5
+	},
+	{
+		"level": 3,
+		"description": "Decreases cooldown",
+		"cooldownChange": 0.5
+	},
+	{
+		"level" : 4,
+		"description": "Deals more damage with bigger radius",
+		"dmgChange": 10,
+		"scaleChange": 0.5
+	},
+	{
+		"level" : 5,
+		"description": "Deals more damage with decreased cooldown",
+		"dmgChange": 10,
+		"cooldownChangeChange": 0.5
+	},
+	{
+		"level" : 6,
+		"description": "Detonates faster with increased size",
+		"durationChange": -0.5,
+		"scaleChange": 0.5
+	}
+	]		
+	},
+{
+	"name": "Ice",
+	"description": "Pillars of ice damaging enemies from below",
+	"weight": 6,
+	"explosion": "none",
+	"minBaseDamage": 12,
+	"maxBaseDamage": 15,
+	"projectileSpeed": 0,
+	"bulletType": "single",
+	"target": "random",
+	"impactCooldown": 1.5,
+	"baseAmount": 1,
+	"duration": 1,
+	"baseRadius": 6.5,
+	"knockbackForce": 2,
+	"cooldown": 5,
+	"basePenetrationTimes": -1,
+	"shootSound":"ice sound",
+	"delay": 0.2,
+	"baseForce": 0.0,
+	"levelup":[{
+		"level": 2,
+		"description": "Increases projectile and size",
+		"projectileAmount": 1,
+		"scaleChange": 0.25
+	},
+	{
+		"level": 3,
+		"description": "Decreases cooldown",		
+		"cooldownChange": 0.5
+	},
+	{
+		"level": 4,
+		"description": "Increases damage with one more pillar",
+		"projectileAmount": 1,
+		"dmgChange": 5
+	},
+	{
+		"level": 5,
+		"description": "One more pillar with decreased cooldown",
+		"projectileAmount": 1,		
+		"cooldownChange": 0.5
+	},
+	{
+		"level": 6,
+		"description": "Increases damage with one more pillar",
+		"projectileAmount": 1,
+		"dmgChange": 5
+	},
+	{
+		"level": 7,
+		"description": "Increases damage",		
+		"dmgChange": 8	
+	}
+	]		
+},
+{
+	"name": "Bubbles",
+	"description": "Slow enemies inside",
+	"explosion": "none",
+	"minBaseDamage": 3,
+	"maxBaseDamage": 7,
+	"weight": 7,
+	"projectileSpeed": 4,
+	"bulletType": "single",
+	"target": "closest",
+	"impactCooldown": 1,
+	"baseAmount": 1,
+	"duration": 4,
+	"buffApply": "SlowAoe",
+	"baseRadius": 2.0,
+	"knockbackForce": 0,
+	"cooldown": 7,
+	"basePenetrationTimes": -1,
+	"shootSound":"pop",
+	"delay": 0.4,
+	"friction": 0.1,
+	"levelup":[{
+		"level": 2,
+		"description": "Increases damage",
+		"dmgChange": 4	
+	},
+	{
+		"level": 3,
+		"description": "Increases size",
+		"scaleChange": 0.5
+	},
+	{
+		"level": 4,
+		"description": "Increases damage and duration",
+		"dmgChange": 3,	
+		"durationChange":  0.5
+	},
+	{
+		"level": 5,
+		"description": "Increases damage and size",
+		"dmgChange": 3,	
+		"scaleChange": 0.5
+	},
+	{
+		"level": 6,
+		"description": "Increases size with decreased cooldown",
+		"scaleChange": 0.5,
+		"cooldownChange": 0.5
+	},
+	{
+		"level": 7,
+		"description": "Increases duration",
+		"durationChange": 1.0
+	}]		
+},
+{
+	"name": "Soundbox",
+	"description": "Taunts enemies",
+	"explosion": "none",
+	"weight": 6,
+	"minBaseDamage": 0,
+	"maxBaseDamage": 0,
+	"projectileSpeed": 0,
+	"bulletType": "taunt",
+	"target": "directional",
+	"impactCooldown": 1.5,
+	"baseAmount": 1,
+	"duration": 5,
+	"baseRadius": 4.0,
+	"knockbackForce": 0,
+	"cooldown": 8,
+	"basePenetrationTimes": -1,
+	"shootSound":"TruongCuaChauDay",
+	"delay": 0.4,	
+	"levelup":[{
+		"level": 2,
+		"description": "Increases taunt radius",
+		"radiusChange": 0.5
+	},
+	{
+		"level": 3,
+		"description": "Further increases radius",
+		"radiusChange": 0.5
+	},
+	{
+		"level": 4,
+		"description": "Decreases cooldown",
+		"cooldownChange": 0.5
+	},
+	{
+		"level": 5,
+		"description": "Increases radius",
+		"radiusChange": 1
+	},
+	{
+		"level": 6,
+		"description": "Enemies get more damage when being taunted"
+	}
+]		
+},{
+	"name": "Basketball",
+	"description": "Bounces horizontally, hitting everything in its way",
+	"explosion": "none",
+	"minBaseDamage": 10,
+	"maxBaseDamage": 15,
+	"projectileSpeed": 12,
+	"bulletType": "bounce",
+	"target": "directional",
+	"ignoreDuration": 0,
+	"impactCooldown": 0.8,
+	"baseAmount": 2,
+	"duration": 2.5,
+	"baseRadius": 10.0,
+	"knockbackForce": 2.0,
+	"cooldown": 3,
+	"basePenetrationTimes": 6,
+	"shootSound":"boing",
+	"delay": 0.3,
+	"levelup":[
+	{
+		"level": 2,
+		"description": "Increases projectile",
+		"projectileAmount": 1
+	},{
+		"level": 3,
+		"description": "Increases damage",		
+		"dmgChange": 4
+	},	
+	{
+		"level": 4,
+		"description": "Increases projectile",
+		"projectileAmount": 1
+	},
+	{
+		"level": 5,
+		"description": "Decreases cooldown and increases damage",
+		"cooldownChange": 0.4,
+		"dmgChange": 5		
+	}, {
+		"level": 6,
+		"description": "Increases projectile",		
+		"projectileAmount": 1
+	}, 
+ 	{
+ 		"level": 7,
+		"description": "Decreases cooldown with increased distance",
+		"cooldownChange": 0.2,
+		"radiusChange": 4
+ 	},
+ 	{
+ 		"level": 8,
+		"description": "Increases projectile and damage",		
+		"projectileAmount": 1,
+		"dmgChange": 10	
+ 	}]		
+}
+]}

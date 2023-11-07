@@ -1,0 +1,28 @@
+{
+	"bonus": [
+	{
+		"name": "Cola",
+		"description": "Increases your attack speed",
+		"baseAttackSpeedChange": 0.25,
+		"levelUp": [
+		{
+			"level": 2,
+			"description": "further increases attack speed",
+			"attackSpeedChange": 0.25
+		}
+		]
+	},
+	{
+		"name": "Duplicator",
+		"description": "Increase projectiles",
+		"baseProjectileChange": 1,
+		"levelUp": [
+		{
+			"level": 2,
+			"description": "Increase projectiles",
+			"projectileChange": 1
+		}
+		]
+	}
+	]
+}

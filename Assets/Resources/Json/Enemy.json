@@ -1,0 +1,333 @@
+{
+"enemy":
+[
+{
+	"name": "NormalEnemy",
+	"health": 10,
+	"speed": 3.7,
+	"target": "player",
+	"behavior": "normal",	
+	"canRespawn": 1,
+	"damage": 2,
+	"loots": [
+		{
+			"name": "ExpChunk",
+			"amount": 1,
+			"percent": 70
+		},
+		{
+			"name": "none",
+			"amount": 1,
+			"percent": 30	
+		}
+	]
+},
+{
+	"name": "NormalEnemy Stronger",
+	"health": 26,
+	"speed": 3.7,
+	"target": "player",
+	"behavior": "normal",
+	"canRespawn": 1,
+	"damage": 3,
+	"loots": [
+		{
+			"name": "ExpChunk",
+			"amount": 1,
+			"percent": 70
+		},
+		{
+			"name": "none",
+			"amount": 1,
+			"percent": 30	
+		},
+		{
+			"name": "BiggerExpChunk",
+			"amount": 1,
+			"percent": 30
+		}
+	]
+},
+{
+	"name": "SmallEnemy",
+	"health": 10,
+	"speed": 4.4,
+	"target": "player",
+	"behavior": "normal",
+	"canRespawn": 1,
+	"damage": 2,
+	"loots": [
+		{
+			"name": "ExpChunk",
+			"amount": 1,
+			"percent": 75
+		},
+		{
+			"name": "none",
+			"amount": 1,
+			"percent": 25	
+		}
+	]
+},
+{
+	"name": "SmallEnemy Stronger",
+	"health": 24,
+	"speed": 4.4,
+	"target": "player",
+	"canRespawn": 1,
+	"damage": 2,
+	"behavior": "normal",
+	"loots": [
+		{
+			"name": "ExpChunk",
+			"amount": 1,
+			"percent": 70
+		},
+		{
+			"name": "none",
+			"amount": 1,
+			"percent": 30			
+		},
+		{
+			"name": "BiggerExpChunk",
+			"amount": 1,
+			"percent": 30
+		}
+	]
+},
+{
+	"name": "SmallEnemy 2",
+	"health": 20,
+	"speed": 4.4,
+	"target": "player",
+	"damage": 2,
+	"canRespawn": 1,
+	"behavior": "normal",
+	"loots": [
+		{
+			"name": "ExpChunk",
+			"amount": 1,
+			"percent": 75
+		},
+		{
+			"name": "BiggerExpChunk",
+			"amount": 1,
+			"percent": 20
+		}
+	]
+},
+{
+	"name": "SmallEnemy 2 Stronger",
+	"health": 30,
+	"speed": 4.4,
+	"target": "player",
+	"canRespawn": 1,
+	"behavior": "normal",
+	"damage": 2,
+	"loots": [
+		{
+			"name": "BiggerExpChunk",
+			"amount": 1,
+			"percent": 50
+		},
+		{
+			"name": "none",
+			"amount": 1,
+			"percent": 20	
+		}
+	]
+},
+{
+	"name": "BigEnemy",
+	"health": 300,
+	"speed": 3.3,
+	"target": "player",
+	"canRespawn": 1,
+	"behavior": "normal",
+	"boss": 1,
+	"maxKnockback": 0,
+	"levelMultiplyHp": 35,
+	"damage": 4,
+	"loots": [
+		{
+			"name": "SuperLargeExpChunk",
+			"amount": 1,
+			"percent": 80
+		},
+		{
+			"name": "Diamond",
+			"amount": 1,
+			"percent": 10
+		}
+	]
+},
+{
+	"name": "BigEnemy Normal",
+	"health": 300,
+	"speed": 3.6,
+	"target": "player",
+	"canRespawn": 1,
+	"behavior": "normal",
+	"boss": 0,
+	"maxKnockback": 0,
+	"levelMultiplyHp": 30,
+	"damage": 4,
+	"loots": [
+		{
+			"name": "SuperLargeExpChunk",
+			"amount": 1,
+			"percent": 80
+		},
+		{
+			"name": "Diamond",
+			"amount": 1,
+			"percent": 10
+		}
+	]	
+},
+{
+	"name": "Sport Enemy",
+	"health": 45,
+	"speed": 3.5,
+	"target": "player",
+	"canRespawn": 1,
+	"behavior": "normal",
+	"stopDistance": 8,
+	"shootInterval": 5,
+	"damage": 2,
+	"abilities" : [{
+		"skill": "Fire",
+		"asset": "enemyBullet",
+		"damage": 3,
+		"amount": 1,
+		"spawnDistance": 0,
+		"type": "bullet",
+		"cooldown": 5,
+		"startSkill" : 8
+	}],
+	"loots": [
+		{
+			"name": "ExpChunk",
+			"amount": 1,
+			"percent": 70
+		},
+		{
+			"name": "BiggerExpChunk",
+			"amount": 1,
+			"percent": 20
+		}
+	]
+},
+{
+	"name": "Pickup Station 1",
+	"health": 12,
+	"speed": 0,
+	"canRespawn": 0,
+	"target": "none",
+	"behavior": "station",
+	"loots" : [
+		{
+			"name": "Diamond",
+			"amount": 1,
+			"percent": 50
+		},
+		{
+			"name": "Heart",
+			"amount": 1,
+			"percent": 30
+		},
+		{
+			"name": "Magnet",
+			"amount": 1,
+			"percent": 5
+		},
+		{
+			"name": "BigHeart",
+			"amount": 1,
+			"percent": 5	
+		}
+	]
+},
+{
+	"name": "The Ikemen",
+	"health": 888,
+	"speed": 3.25,
+	"target": "player",
+	"behavior": "normal",
+	"stopDistance": 0,
+	"damage": 3,
+	"canRespawn": 1,
+	"boss": 1,
+	"maxKnockback": 0,
+	"levelMultiplyHp": 50,
+	"abilities" : [{
+		"skill": "Summon",
+		"asset": "FanEnemy",
+		"damage": 5,
+		"amount": 8,
+		"delay": 0.05,
+		"spawnDistance": 1,
+		"type": "summon",
+		"cooldown": 5.5,
+		"startSkill" : 9
+	}
+	],
+	"loots": [
+		{
+			"name": "SuperLargeExpChunk",
+			"amount": 1,
+			"percent": 100
+		}
+	]
+},
+{
+	"name": "FanEnemy",
+	"health": 25,
+	"canRespawn": 0,
+	"speed": 7,
+	"target": "direction",
+	"damage": 3,
+	"behavior": "normal"	
+},
+{
+	"name": "FanEnemy Normal",
+	"health": 20,
+	"canRespawn": 1,
+	"speed": 5.7,
+	"target": "direction",
+	"damage": 3,
+	"behavior": "normal"	
+},
+{
+	"name": "Table Enemy",
+	"health": 40,
+	"speed": 0,
+	"canRespawn": 1,
+	"target": "player",
+	"behavior": "normal",
+	"damage": 2,
+	"abilities" : [{
+		"skill": "Fire",
+		"asset": "enemyBullet",
+		"damage": 3,
+		"amount": 2,
+		"delay": 0.2,
+		"spawnDistance": 0,
+		"type": "bullet",
+		"cooldown": 3,
+		"startSkill" : 8
+	}],
+	"loots" : [
+		{
+			"name": "ExpChunk",
+			"amount": 1,
+			"percent": 70
+		},
+		{
+			"name": "BiggerExpChunk",
+			"amount": 1,
+			"percent": 20
+		}
+	]
+}
+]}

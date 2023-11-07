@@ -1,0 +1,29 @@
+{
+"hero":
+[
+{
+	"name": "HeroA",
+	"model": "Character 1",
+	"key": "character1",
+	"health": 100,
+	"baseReloadTime": 1.0,
+	"startWeapon": "Blue Flops"
+},
+{
+	"name": "HeroB",
+	"model": "Character 2",
+	"key": "character2",
+	"health": 120,
+	"startWeapon": "Paper Plane",
+	"attackSpeed_Bonus": 0.4,	
+	"speed_Bonus": -0.15
+},
+{
+	"name": "HeroC",
+	"model": "Character 3",
+	"key": "character3",
+	"health": 85,	
+	"startWeapon": "DepLe",	
+	"exp_Bonus": 0.2
+}
+]}

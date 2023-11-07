@@ -1,0 +1,16 @@
+{
+	"buffs": [
+	{
+		"name": "Slow",
+		"baseSpeed": -0.25,
+		"buffType": "staying",
+		"baseBuffDuration": 0
+	},
+	{
+		"name": "Frozen",
+		"baseSpeed": -1,
+		"buffType": "impact",
+		"baseBuffDuration": 2
+	}
+	]
+}

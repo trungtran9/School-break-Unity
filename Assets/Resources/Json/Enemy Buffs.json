@@ -1,0 +1,22 @@
+{
+	"buffs": [
+	{
+		"name": "SlowAoe",
+		"baseSpeed": -0.5,
+		"buffType": "staying",
+		"baseBuffDuration": 0
+	},
+	{
+		"name": "Slow",
+		"baseSpeed": -0.25,
+		"buffType": "impact",
+		"baseBuffDuration": 3
+	},
+	{
+		"name": "Frozen",
+		"baseSpeed": -1,
+		"buffType": "impact",
+		"baseBuffDuration": 2
+	}
+	]
+}

@@ -1,0 +1,215 @@
+{
+"worldEvents":
+[
+{
+	"name": "World1",
+	"events": [{
+		"startTime": 0.5, 
+		"interval": 2,
+		"enemySets": [
+		{
+				"enemy": "NormalEnemy",
+				"maxEnemy": 10
+		}]		
+	},
+	{
+	   	"startTime": 60.0, 
+		"interval": 1,		
+		"enemySets": [
+			{
+			"enemy": "NormalEnemy",
+			"maxEnemy": 18			
+			}]		
+	},
+	{
+	   	"startTime": 120.0, 
+		"enemySets": [
+		{
+			"enemy": "NormalEnemy",
+			"maxEnemy": 15
+		},
+		{
+			"enemy": "SmallEnemy",
+			"maxEnemy": 5
+		}],
+		"interval": 0.8
+	},
+	{
+	   	"startTime": 180.0, 
+		"enemySets": [
+		{
+			"enemy": "BigEnemy",
+			"maxEnemy": 1
+		},
+		{
+			"enemy": "NormalEnemy",
+			"maxEnemy": 19
+		}		
+		],
+		"interval": 0.6
+	},
+		{
+	   	"startTime": 240.0, 
+		"enemySets": [
+		{
+			"enemy": "SmallEnemy",
+			"maxEnemy": 12
+		},
+		{
+			"enemy": "FanEnemy Normal",
+			"maxEnemy": 6
+		}],
+		"interval": 1.2
+	},
+	{
+	   	"startTime": 300.0, 
+		"enemySets": [
+		{
+			"enemy": "SmallEnemy",
+			"maxEnemy": 15
+		},
+		{
+			"enemy": "Sport Enemy",
+			"maxEnemy": 5
+		}],
+		"interval": 1
+	},
+	{
+	   	"startTime": 360.0, 
+		"enemySets": [
+		{
+			"enemy": "NormalEnemy", 
+			"maxEnemy": 35
+		},
+		{
+			"enemy": "NormalEnemy Stronger", 
+			"maxEnemy": 7	
+		}],
+		"interval": 0.5
+	},
+	{
+	   	"startTime": 420.0, 
+		"enemySets": [
+		{
+			"enemy": "NormalEnemy Stronger",
+			"maxEnemy": 35
+		},
+		{		
+			"enemy": "BigEnemy",
+			"maxEnemy": 1		
+		}],
+		"interval": 0.9
+	},
+	{
+	   	"startTime": 480.0, 
+		"enemySets": [
+		{
+			"enemy": "NormalEnemy Stronger",
+			"maxEnemy": 40
+		},{
+			"enemy": "SmallEnemy Stronger",
+			"maxEnemy": 15
+		},
+		{
+			"enemy": "SmallEnemy 2",
+			"maxEnemy": 5
+		}
+		],
+		"interval": 1.5
+	},
+	{
+		"startTime": 540.0, 
+		"enemySets": [
+		{
+			"enemy": "NormalEnemy Stronger",
+			"maxEnemy": 35
+		},
+		{
+			"enemy": "Table Enemy",
+			"maxEnemy": 8
+		}
+		],
+		"interval": 1
+	},
+	{
+		"startTime": 600.0, 
+		"enemySets": [		
+		{
+			"enemy": "SmallEnemy Stronger",
+			"maxEnemy": 25
+		},
+		{
+			"enemy": "SmallEnemy 2",
+			"maxEnemy": 15
+		},
+		{
+			"enemy": "Sport Enemy",
+			"maxEnemy": 10
+		}
+		],
+		"interval": 1.3
+	},
+	{
+		"startTime": 666.0, 
+		"enemySets": [
+		{
+			"enemy": "BigEnemy",
+			"maxEnemy": 3
+		},
+		{
+			"enemy": "NormalEnemy Stronger",
+			"maxEnemy": 45
+		},
+		{
+			"enemy": "Sport Enemy",
+			"maxEnemy": 15
+		}
+		],
+		"interval": 1
+	},
+	{
+		"startTime": 720.0,
+		"enemySets": [
+			{
+				"enemy": "The Ikemen",
+				"maxEnemy": 1
+			},
+			{
+				"enemy": "BigEnemy",
+				"maxEnemy": 2
+			}
+		],
+		"interval": 1
+	},
+	{
+		"startTime": 780.0,
+		"enemySets": [
+			{
+				"enemy": "BigEnemy Normal",
+				"maxEnemy": 20
+			},
+			{
+				"enemy": "FanEnemy Normal",
+				"maxEnemy": 15
+			}
+		],
+		"interval": 1
+	},
+	{
+		"startTime": 900.0,
+		"enemySets": [
+		{
+			"enemy": "SmallEnemy 2 Stronger",
+			"maxEnemy": 50
+		},
+		{
+			"enemy": "Table Enemy",
+			"maxEnemy": 30
+		}
+		],
+		"interval": 0.5
+	}
+	]
+}
+]
+}

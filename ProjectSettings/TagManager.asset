@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Projectile
+  - Enemy
+  - Obstacle
+  - SpawnPoints
+  - BulletSpawner
+  - FloorChunk
+  - PlayerArea
+  - PlayerComponent
+  - ExpContainer
+  - StationContainer
+  - Audio
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Floor
+  - Water
+  - UI
+  - FloorRender
+  - Enemy
+  - Player
+  - Bullet
+  - EnemyBullet
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Floor
+    uniqueID: 2176398607
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0

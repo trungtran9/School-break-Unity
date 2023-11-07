@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6749986079901569338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcbd052539327467295d2009d33aa660, type: 3}
+  m_Name: Item_character2
+  m_EditorClassIdentifier: 
+  m_DisplayName: Character 2
+  m_Key: character2
+  m_Tags:
+  - {fileID: -5546359456808727080}
+  m_StaticPropertyKeys:
+  - requiredDiamond
+  m_StaticPropertyValues:
+  - <type>k__BackingField: 0
+    m_ValueType:
+      longValue: 50
+    m_StringValue: 
+  m_InitialAllocation: 0
+  m_IsStackableFlag: 0
+  m_InitialQuantityPerStack: 1
+  m_MutablePropertyKeys:
+  - bought
+  m_MutablePropertyDefaultValues:
+  - <type>k__BackingField: 2
+    m_ValueType:
+      longValue: 0
+    m_StringValue: 
+--- !u!114 &-5546359456808727080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4178f7fa125e7644ba2a2d0c6300db1, type: 3}
+  m_Name: Tag_Character
+  m_EditorClassIdentifier: 
+  m_Key: Character
+  m_Catalog: {fileID: 2801701349320970659}
+--- !u!114 &-2593515306511170006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcbd052539327467295d2009d33aa660, type: 3}
+  m_Name: Item_character3
+  m_EditorClassIdentifier: 
+  m_DisplayName: Character 3
+  m_Key: character3
+  m_Tags:
+  - {fileID: -5546359456808727080}
+  m_StaticPropertyKeys:
+  - requiredDiamond
+  m_StaticPropertyValues:
+  - <type>k__BackingField: 0
+    m_ValueType:
+      longValue: 100
+    m_StringValue: 
+  m_InitialAllocation: 0
+  m_IsStackableFlag: 0
+  m_InitialQuantityPerStack: 1
+  m_MutablePropertyKeys:
+  - bought
+  m_MutablePropertyDefaultValues:
+  - <type>k__BackingField: 2
+    m_ValueType:
+      longValue: 0
+    m_StringValue: 
+--- !u!114 &-597085928732006566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcbd052539327467295d2009d33aa660, type: 3}
+  m_Name: Item_character1
+  m_EditorClassIdentifier: 
+  m_DisplayName: Character 1
+  m_Key: character1
+  m_Tags:
+  - {fileID: -5546359456808727080}
+  m_StaticPropertyKeys:
+  - requiredDiamond
+  m_StaticPropertyValues:
+  - <type>k__BackingField: 0
+    m_ValueType:
+      longValue: 0
+    m_StringValue: 
+  m_InitialAllocation: 1
+  m_IsStackableFlag: 0
+  m_InitialQuantityPerStack: 1
+  m_MutablePropertyKeys:
+  - bought
+  m_MutablePropertyDefaultValues:
+  - <type>k__BackingField: 2
+    m_ValueType:
+      longValue: 1
+    m_StringValue: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6d6d794703b5406883240f543e5b084, type: 3}
+  m_Name: GameFoundationCatalog
+  m_EditorClassIdentifier: 
+  m_TagCatalog: {fileID: 2801701349320970659}
+  m_Items:
+  - {fileID: 7080341863998177291}
+  - {fileID: 1636664789032867514}
+  - {fileID: 9211103293375024793}
+  - {fileID: -597085928732006566}
+  - {fileID: -6749986079901569338}
+  - {fileID: -2593515306511170006}
+--- !u!114 &1636664789032867514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6736b79f77dc474c8bc820c305c2c2e, type: 3}
+  m_Name: Currency_diamond
+  m_EditorClassIdentifier: 
+  m_DisplayName: Diamond
+  m_Key: diamond
+  m_Tags: []
+  m_StaticPropertyKeys: []
+  m_StaticPropertyValues: []
+  m_InitialBalance: 50
+  m_MaximumBalance: 999999
+  m_Type: 0
+--- !u!114 &2801701349320970659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9190a04da29ae24ab35e05133ebf087, type: 3}
+  m_Name: _Catalog_Tags
+  m_EditorClassIdentifier: 
+  m_Tags:
+  - {fileID: -5546359456808727080}
+  m_CatalogAsset: {fileID: 11400000}
+--- !u!114 &7080341863998177291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b81b157322addcd439104bd3c59b830b, type: 3}
+  m_Name: Store_main
+  m_EditorClassIdentifier: 
+  m_DisplayName: Main
+  m_Key: main
+  m_Tags: []
+  m_StaticPropertyKeys: []
+  m_StaticPropertyValues: []
+  m_StoreItems: []
+--- !u!114 &9211103293375024793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcbd052539327467295d2009d33aa660, type: 3}
+  m_Name: Item_wallet
+  m_EditorClassIdentifier: 
+  m_DisplayName: Wallet
+  m_Key: wallet
+  m_Tags: []
+  m_StaticPropertyKeys: []
+  m_StaticPropertyValues: []
+  m_InitialAllocation: 0
+  m_IsStackableFlag: 1
+  m_InitialQuantityPerStack: 1
+  m_MutablePropertyKeys:
+  - diamond
+  m_MutablePropertyDefaultValues:
+  - <type>k__BackingField: 0
+    m_ValueType:
+      longValue: 0
+    m_StringValue: 

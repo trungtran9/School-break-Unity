@@ -1,0 +1,173 @@
+{
+"enemy":
+[
+{
+	"name": "NormalEnemy",
+	"health": 7,
+	"speed": 2.5,
+	"target": "player",
+	"behavior": "normal",	
+	"damage": 2,
+	"loots": [
+		{
+			"name": "ExpChunk",
+			"amount": 1,
+			"percent": 80
+		}
+	]
+},
+{
+	"name": "NormalEnemy Stronger",
+	"health": 24,
+	"speed": 2.5,
+	"target": "player",
+	"behavior": "normal",
+	"damage": 3,
+	"loots": [
+		{
+			"name": "ExpChunk",
+			"amount": 1,
+			"percent": 88
+		}
+	]
+},
+{
+	"name": "SmallEnemy",
+	"health": 7,
+	"speed": 4,
+	"target": "player",
+	"behavior": "normal",
+	"damage": 1,
+	"loots": [
+		{
+			"name": "ExpChunk",
+			"amount": 1,
+			"percent": 75
+		}
+	]
+},
+{
+	"name": "SmallEnemy Stronger",
+	"health": 22,
+	"speed": 4,
+	"target": "player",
+	"damage": 1,
+	"behavior": "normal",
+	"loots": [
+		{
+			"name": "ExpChunk",
+			"amount": 1,
+			"percent": 85
+		}
+	]
+},
+{
+	"name": "SmallEnemy 2",
+	"health": 12,
+	"speed": 3.9,
+	"target": "player",
+	"damage": 2,
+	"behavior": "normal",
+	"loots": [
+		{
+			"name": "ExpChunk",
+			"amount": 1,
+			"percent": 75
+		},
+		{
+			"name": "BiggerExpChunk",
+			"amount": 1,
+			"percent": 25
+		}
+	]
+},
+{
+	"name": "SmallEnemy 2 Stronger",
+	"health": 26,
+	"speed": 3.9,
+	"target": "player",
+	"behavior": "normal",
+	"damage": 2,
+	"loots": [
+		{
+			"name": "BiggerExpChunk",
+			"amount": 1,
+			"percent": 50
+		}
+	]
+},
+{
+	"name": "BigEnemy",
+	"health": 500,
+	"speed": 2.4,
+	"target": "player",
+	"behavior": "normal",
+	"boss": 1,
+	"damage": 4,
+	"loots": [
+		{
+			"name": "SuperLargeExpChunk",
+			"amount": 1,
+			"percent": 70
+		}
+	]
+},
+{
+	"name": "BigEnemy Stronger",
+	"health": 800,
+	"speed": 2.4,
+	"target": "player",
+	"behavior": "normal",
+	"boss": 1,
+	"damage": 5,
+	"loots": [
+		{
+			"name": "SuperLargeExpChunk",
+			"amount": 1,
+			"percent": 90
+		}
+	]
+},
+{
+	"name": "Sport Enemy",
+	"health": 45,
+	"speed": 2.7,
+	"target": "player",
+	"behavior": "normal",
+	"stopDistance": 8,
+	"canShoot": 1,
+	"shootInterval": 5,
+	"damage": 3,
+	"loots": [
+		{
+			"name": "ExpChunk",
+			"amount": 1,
+			"percent": 70
+		},
+		{
+			"name": "BiggerExpChunk",
+			"amount": 1,
+			"percent": 30
+		}
+	]
+},
+{
+	"name": "Pickup Station 1",
+	"health": 1,
+	"speed": 0,
+	"target": "none",
+	"behavior": "none",
+	"loots" : [
+		{
+			"name": "Coin",
+			"amount": 1,
+			"percent": 55
+		},
+		{
+			"name": "Heart",
+			"amount": 1,
+			"percent": 30
+		}
+	]
+}
+]}

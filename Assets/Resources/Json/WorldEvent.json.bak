@@ -1,0 +1,18 @@
+{
+"worldEvents":
+[
+{
+	"name": "World1",
+	"events": [{
+		"startTime": 1.0, 
+		"interval": 1,
+		"enemySets": [
+		{
+			"enemy": "NormalEnemy",
+			"maxEnemy": 10
+		}]		
+	}
+	]
+}
+]
+}

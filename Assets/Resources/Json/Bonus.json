@@ -1,0 +1,131 @@
+{
+	"bonus": [
+	{
+		"name": "Cola",
+		"description": "Increases your damage by 10%",
+		"baseAttackChange": 0.1,
+		"levelup": [
+		{
+			"level": 2,
+			"description": "further increases damage"
+		},
+		{
+			"level": 3,
+			"description": "further increases damage"
+		},{
+			"level": 4,
+			"description": "further increases damage"
+		},		{
+			"level": 5,
+			"description": "further increases damage"
+		}]
+	},
+	{
+		"name": "Bag",
+		"description": "Increases one projectile of almost every weapon",
+		"weight": 6,
+		"baseProjectileChange": 1,
+		"levelup": [
+		{
+			"level": 2,
+			"description": "Increases one more projectile",
+			"projectileChange": 1
+		}]
+	},
+	{
+		"name": "Bluebull",
+		"description": "Moves faster",
+		"baseMoveSpeedChange": 0.1,
+		"levelup": [
+			{
+				"level": 2,
+				"description": "Increases movement speed by 10%",
+				"moveSpeedChange": 0.1
+			},
+			{
+				"level": 3,
+				"description": "Increases movement speed by 10%",
+				"moveSpeedChange": 0.1
+			},
+			{
+				"level": 4,
+				"description": "Increases movement speed by 10%",
+				"moveSpeedChange": 0.1
+			},{
+				"level": 5,
+				"description": "Increases movement speed by 10%",
+				"moveSpeedChange": 0.1
+			}
+		]
+	},
+	{
+		"name": "Candy",
+		"description": "Increases attack speed",
+		"baseAttackSpeedChange": 0.1,
+		"levelup": [
+			{
+				"level": 2,
+				"description": "Increases attack speed by 10%"
+			},
+			{
+				"level": 3,
+				"description": "Increases attack speed by 10%"
+			},
+			{
+				"level": 4,
+				"description": "Increases attack speed by 10%"
+			},{
+				"level": 5,
+				"description": "Increases attack speed by 10%"
+			}
+		]
+	},
+	{
+		"name": "First aid kit",
+		"description": "Heals for a small amount per second",
+		"weight": 7,
+		"baseHPSChange": 0.1,
+		"levelup": [
+			{
+				"level": 2,
+				"description": "Heals 0.1HP per second"
+			},
+			{
+				"level": 3,
+				"description": "Further heals 0.1HP per second"
+			},
+			{
+				"level": 4,
+				"description": "Further heals 0.1HP per second"
+			},{
+				"level": 5,
+				"description": "Further heals 0.1HP per second"
+			}
+		]
+	},
+	{
+		"name": "Cooldown Decreaser",
+		"description": "Decreases cooldown",
+		"weight": 5,
+		"baseCooldownChange": 0.08,
+		"levelup": [
+			{
+				"level": 2,
+				"description": "Decreases cooldown by 8%"
+			},
+			{
+				"level": 3,
+				"description": "Decreases cooldown by 8%"
+			},
+			{
+				"level": 4,
+				"description": "Decreases cooldown by 8%"
+			},
+			{
+				"level": 5,
+				"description": "Decreases cooldown by 8%"
+			}
+		]
+	}
+	]
+}
